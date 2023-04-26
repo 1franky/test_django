@@ -55,4 +55,6 @@ EXPOSE 3000
 
 # CMD ["uvicorn", "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "3000"]
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0:3000"]
+# CMD ["python", "manage.py", "runserver", "0.0.0.0:3000"]
+
+CMD ["sh", "entrypoint.sh"]
