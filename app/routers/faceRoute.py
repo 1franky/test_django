@@ -88,7 +88,7 @@ async def get_faces_numpy2(
         print(f"Error al leer imagen {e}")
         raise HTTPException(status_code=500, detail="Erro al leer imagen")
 
-    return validador.getNumpy(img)
+    return validador.getNumpy2(img)
 
 
 
