@@ -43,9 +43,6 @@ RUN cd ~ && \
 RUN apt-get install -y libsndfile-dev 
 RUN pip install imutils
 RUN pip install redis
-RUN pip install djangorestframework
-RUN pip install markdown
-RUN pip install django-filter
 
 COPY . .
 RUN cd ~
